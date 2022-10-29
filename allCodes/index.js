@@ -1,14 +1,27 @@
+//Template Literals
+const book = {
+    name: "The Jungle Book",
+    releaseYear: "1995"
+}
+
+console.log(`You are reading ${book.name}. Published in ${book.releaseYear}`)
+
+//spread operator
+
+let params = [1,2,3]
+
+console.log([...params,55])
 // All invokes
-basicAlert();
-handlingString();
-increment();
-takingInput();
-checkLicense();
-forLoop();
-pyramid();
-arrayTest();
-dice();
-greetings("Morning");
+// basicAlert();
+// handlingString();
+// increment();
+// takingInput();
+// checkLicense();
+// forLoop();
+// pyramid();
+// arrayTest();
+// dice();
+// greetings("Morning");
 var answer = multiple(2,2.5);
 var answer1 = sum(2,9);
 console.log(answer);
@@ -177,6 +190,10 @@ function sum(param1,param2){
     // return (param1,param2) +10;
 }
 
+const sum1 = (param1,param2) =>{return param1+param2}
+
+const sum2 = (param1,param2) => param1+param2
+
 // var param1 = 20;
 
 // var addition = sum(2,2);
@@ -192,3 +209,4 @@ const changeValue1 = () =>{
 }
 num = changeValue(num);
 console.log(num);
+
